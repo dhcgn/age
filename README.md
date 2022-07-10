@@ -2,7 +2,7 @@
 
 Why? Just want to learn how *age* works by adding the the NIST selected Quantum-Resistant Cryptographic Algorithm CRYSTALS-Kyber (in a naive way, don't use!).
 
-- Added hybrid (classical and quantum) KEM of Kyber768 and X2551 from [cloudflare/circl](https://github.com/cloudflare/circl) project to age-keygen and age.
+- Added hybrid (classical and quantum) KEM of Kyber768 and X25519 from [cloudflare/circl](https://github.com/cloudflare/circl) project to age-keygen and age.
 
 The private key is bigger, because of the the Kyber768 public key:
 
@@ -12,7 +12,7 @@ The private key is bigger, because of the the Kyber768 public key:
 AGE-PQ-SECRET-KEY-9xyLTfdMA4Tz/q1gItPOBbWqlnbayFPbIEEukCNRSdxvmHT664qlglyRybOu3kQmHTHKtkEgTGGVHQUc3FbMlw==
 ```
 
-The secret key has the same length, because is it used to derive the Kyber768 and X2551 key pairs.
+The secret key has the same length, because is it used to derive the Kyber768 and X25519 key pairs.
 
 ```
 AGE-PQ-SECRET-KEY-9xyLTfdMA4Tz/q1gItPOBbWqlnbayFPbIEEukCNRSdxvmHT664qlglyRybOu3kQmHTHKtkEgTGGVHQUc3FbMlw==
